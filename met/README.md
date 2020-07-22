@@ -20,13 +20,13 @@ Codebook for meteorological data. For further details see ftp://ftp.ncdc.noaa.go
 * ceiling.ht.method &emsp; Ceiling height method
 * sky.cond      &emsp; Sky conditions
 * vis.dist      &emsp; Visibility distance (m)
-vis.dist.qc     &emsp; Visibility distance quality control flag
-vis.var         &emsp; Visibility variability 
-vis.var.qc      &emsp; Visibility variability quality control flag
-temp            &emsp; Air temperature (C)
-temp.qc         &emsp; Air temperature quality control flag
-dew.point       &emsp; Dew point temperature (C)
-dew.point.qc    &emsp; Dew point temperature quality control flag
-atm.press       &emsp; Atmospheric pressure (mbar)
-atm.press.qc    &emsp; Atmospheric pressure quality control flag
-rh              &emsp; Relative humidity
+* vis.dist.qc     &emsp; Visibility distance quality control flag
+* vis.var         &emsp; Visibility variability 
+* vis.var.qc      &emsp; Visibility variability quality control flag
+* temp            &emsp; Air temperature (C)
+* temp.qc         &emsp; Air temperature quality control flag
+* dew.point       &emsp; Dew point temperature (C)
+* dew.point.qc    &emsp; Dew point temperature quality control flag
+* atm.press       &emsp; Atmospheric pressure (mbar)
+* atm.press.qc    &emsp; Atmospheric pressure quality control flag
+* rh              &emsp; Relative humidity
