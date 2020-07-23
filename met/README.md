@@ -1,3 +1,12 @@
+---
+name: [met_all.gz]
+short-desc: [meteorological data from National Oceanic and Atmospheric Administration (NOAA) weather stations, subset to the continental U.S.]
+date-collected:  2020-07-19
+source-url: [ftp://ftp.ncdc.noaa.gov/pub/data/noaa/]
+keywords: [weather stations, meteoroloy]
+format: [gz, csv]
+---
+
 Codebook for meteorological data. For further details, particularly on quality control flags and type codes, see <ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-format-document.pdf>
 
 * USAFID        &emsp;US Air Force fixed weather station identification number           
