@@ -66,7 +66,7 @@ for (y in 2019){
     download.file(uri, destfile = tmpf, quiet = TRUE)
     
     # Reading the file
-    message("Reading the data for recor ", s, " in year ", y, appendLF = FALSE)
+    message("Reading the data for recor ", s, " in year ", y, "... ", appendLF = FALSE)
     tmpdat <- suppressMessages(readr::read_fwf(
       file = tmpf,
       col_positions = readr::fwf_widths(
@@ -116,3 +116,5 @@ for (y in 2019){
   }
   
 }
+
+fwrite(met_all, file = "met_all_dt.gz", compress = "gzip")
