@@ -1,5 +1,5 @@
 ---
-name: [INTEGRATED SURFACE DATA (ISD)]
+name: [Metereological data from the Integrated Surface Dataset (ISD)]
 short-desc: [Sample of the Integrated Surface Data]
 date-collected: 2020-06-30
 source-url: [ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv]
